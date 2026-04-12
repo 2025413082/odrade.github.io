@@ -122,7 +122,7 @@
           <h2 class="section-title">友链</h2>
           <a href="https://odrade.top" target="_blank" class="link-card">
             <h5>odrade.top</h5>
-            <p class="text-muted small mb-0">鹤暮的个人网站</p>
+            <p class="text-muted small mb-0">暮的个人网站</p>
           </a>
           <a href="https://github.com" target="_blank" class="link-card">
             <h5>GitHub</h5>
