@@ -120,8 +120,8 @@
 
         <section id="links" class="section-card">
           <h2 class="section-title">友链</h2>
-          <a href="https://linfun.top" target="_blank" class="link-card">
-            <h5>he.top</h5>
+          <a href="https://odrade.top" target="_blank" class="link-card">
+            <h5>odrade.top</h5>
             <p class="text-muted small mb-0">鹤的个人网站</p>
           </a>
           <a href="https://github.com" target="_blank" class="link-card">
