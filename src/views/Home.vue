@@ -7,7 +7,7 @@
           <div class="row align-items-center">
             <div class="col-md-4 text-center">
             <div class="avatar-wrapper">
-              <img src="/avatar.jpg" class="profile-avatar mb-3" alt="头像">
+              <img :src="baseUrl + 'avatar.jpg'" class="profile-avatar mb-3" alt="头像">
               <div class="avatar-tooltip">害羞男大一名</div>
             </div>
           </div>
@@ -183,6 +183,7 @@ import { useRouter } from 'vue-router'
 import PostCard from '../components/PostCard.vue'
 
 const router = useRouter()
+const baseUrl = import.meta.env.BASE_URL
 const posts = ref([])
 const categories = ref([])
 const loading = ref(true)

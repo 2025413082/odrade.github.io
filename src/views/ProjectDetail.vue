@@ -43,6 +43,7 @@ import { ref, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
+const baseUrl = import.meta.env.BASE_URL
 const project = ref(null)
 
 const projects = [
@@ -51,11 +52,11 @@ const projects = [
     title: '鹿引云途',
     description: '一款旅游软件',
     fullDescription: '鹿引云途是一款专注于旅游体验的移动应用，帮助用户发现周边的旅游景点，规划旅行路线，分享旅行心得。项目包含景点推荐、路线规划、社交分享等核心功能。通过智能算法为用户推荐最适合的景点，让每一次旅行都充满惊喜。',
-    image: '/project1.jpg',
+    image: baseUrl + 'project1.jpg',
     gallery: [
-      '/project1-1.jpg',
-      '/project1-2.jpg',
-      '/project1-3.jpg'
+      baseUrl + 'project1-1.jpg',
+      baseUrl + 'project1-2.jpg',
+      baseUrl + 'project1-3.jpg'
     ],
     technologies: ['JavaScript', 'HTML', 'CSS', ],
     features: [
@@ -73,11 +74,11 @@ const projects = [
     title: '净澜先锋-水下拾圾机器人',
     description: '可以在水下工作的拾取垃圾的机器人',
     fullDescription: '净澜先锋是一款环保型水下机器人，专门用于清理水下垃圾。机器人配备高清摄像头、机械臂和导航系统，能够在复杂的水下环境中自主工作，为保护海洋环境贡献力量。项目旨在解决海洋污染问题，通过技术创新实现清洁海洋的目标。',
-    image: '/project2.jpg',
+    image: baseUrl + 'project2.jpg',
     gallery: [
-      '/project2-1.jpg',
-      '/project2-2.jpg',
-      '/project2-3.jpg'
+      baseUrl + 'project2-1.jpg',
+      baseUrl + 'project2-2.jpg',
+      baseUrl + 'project2-3.jpg'
     ],
     technologies: ['Python', 'HTML', 'CSS', 'Arduino', ],
     features: [

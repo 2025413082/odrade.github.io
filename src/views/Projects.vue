@@ -32,6 +32,7 @@ import { ref } from 'vue'
 import { useRouter } from 'vue-router'
 
 const router = useRouter()
+const baseUrl = import.meta.env.BASE_URL
 
 const projects = ref([
   {
@@ -39,7 +40,7 @@ const projects = ref([
     title: '鹿引云途',
     description: '一款旅游软件',
     fullDescription: '鹿引云途是一款专注于旅游体验的移动应用，帮助用户发现周边的旅游景点，规划旅行路线，分享旅行心得。项目包含景点推荐、路线规划、社交分享等核心功能。',
-    image: '/project1.jpg',
+    image: baseUrl + 'project1.jpg',
     technologies: ['JavaScript', 'HTML', 'CSS'],
     features: ['景点智能推荐', '路线规划', '社交分享', '离线地图'],
   },
@@ -48,7 +49,7 @@ const projects = ref([
     title: '净澜先锋-水下拾圾机器人',
     description: '可以在水下工作的拾取垃圾的机器人',
     fullDescription: '净澜先锋是一款环保型水下机器人，专门用于清理水下垃圾。机器人配备高清摄像头、机械臂和导航系统，能够在复杂的水下环境中自主工作，为保护海洋环境贡献力量。',
-    image: '/project2.jpg',
+    image: baseUrl + 'project2.jpg',
     technologies: ['Python', 'HTML', 'CSS', 'Arduino'],
     features: ['水下导航', '垃圾识别', '机械臂控制', '实时监控'],
   }
